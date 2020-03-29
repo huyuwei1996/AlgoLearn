@@ -26,7 +26,7 @@ hs_err_pid*
 # idea file
 #.idea/
 # out file
-/out/
+/JAlgo/out/
 # mac file
 .DS_Store
 
@@ -136,5 +136,3 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# idea
-#.idea/
