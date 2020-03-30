@@ -1,10 +1,9 @@
-import sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader;
 
 import java.util.Arrays;
 
 public class BubbleSort {
     // 时间复杂度O(n^2)
-    public static int[] BubbleSort(int arr[]) {
+    public static int[] bubbleSort(int[] arr) {
         int temp = 0;
 //        i =[0, len - 1)
 //        j =[0, len - 1 - i)
@@ -21,23 +20,22 @@ public class BubbleSort {
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
                 }
-//                System.out.println(Arrays.toString(arr));
             }
+            System.out.println("第" + (i + 1) + "轮排序后：");
             System.out.println(Arrays.toString(arr));
-            System.out.println("第" + (i + 1) + "趟👆");
         }
         return arr;
     }
 
     public static void main(String[] args) {
-//        int arr[] = {3, 9, -1, 10, -2};
-        int arr[] = {1, 3, 5, 7, 7, 3, 9, 5, 3};
+//        int[] arr = {3, 9, -1, 10, -2};
+        int[] arr = {1, 3, 5, 7, 7, 3, 9, 5, 3};
 
-//        BubbleSort(arr);
-        BubbleSortUp(arr);//优化后的冒泡排序
+//        bubbleSort(arr);
+        bubbleSortUp(arr);
     }
 
-    public static int[] BubbleSortUp(int arr[]) {
+    public static int[] bubbleSortUp(int[] arr) {   //优化后的冒泡排序
         int temp = 0;
         for (int i = 1; i < arr.length; i++) {
             boolean flag = false;
@@ -49,11 +47,11 @@ public class BubbleSort {
                     arr[j + 1] = temp;
                 }
             }
-            if (!flag) {
+            if (!flag) {    //优化：如果没有发生过交换，就退出内循环
                 break;
             }
-//            System.out.println(Arrays.toString(arr));
-//            System.out.println("第" + (i) + "趟👆");
+            System.out.println("第" + i + "轮排序后：");
+            System.out.println(Arrays.toString(arr));
         }
         return arr;
     }
