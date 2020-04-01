@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class InsertSort {
+    // 时间复杂度O(n^2)
     public static int[] insertSort(int[] arr) {
         int insertVal = 0;
         int insertIndex = 0;

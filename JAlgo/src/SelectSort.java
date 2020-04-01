@@ -2,6 +2,7 @@
 import java.util.Arrays;
 
 public class SelectSort {
+    // 时间复杂度O(n^2)
     public static int[] selectSort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minIndex = i;

@@ -104,6 +104,6 @@ venv.bak/
 .mypy_cache/
 
 # idea
-#.idea
+#.idea/
 # mac file
 .DS_Store
