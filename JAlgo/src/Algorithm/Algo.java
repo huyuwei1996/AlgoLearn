@@ -1,3 +1,5 @@
+package Algorithm;
+
 public class Algo {
 
     // 冒泡排序
