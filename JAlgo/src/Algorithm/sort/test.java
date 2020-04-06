@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.sort;
 
 import java.util.Arrays;
 
@@ -19,7 +19,6 @@ public class test {
                 arr[i] = temp;
             }
         }
-
 
         System.out.println(Arrays.toString(arr));//固定
 
