@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0634832-e38f-4fe2-b3a9-1492ef781f3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAlgo/src/DataStructure/tree/BinaryTreeDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +150,7 @@
       <workItem from="1585538921678" duration="2639000" />
       <workItem from="1585559558673" duration="398000" />
       <workItem from="1585562604740" duration="216000" />
+      <workItem from="1586242419481" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585536893942</created>
